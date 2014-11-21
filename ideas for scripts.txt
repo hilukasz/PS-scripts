@@ -1,0 +1,1 @@
+get parent, then select the group parent of selected layer as shortcut
