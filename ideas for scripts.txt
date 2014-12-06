@@ -1,1 +1,1 @@
-get parent, then select the group parent of selected layer as shortcut
+- move selected layers above the bottom(another for top) selected layer
