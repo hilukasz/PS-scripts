@@ -1,4 +1,7 @@
-﻿cTID = function(s) { return app.charIDToTypeID(s); };
+﻿// written by Lukasz Wieczorek at http://lukasz.io
+// Please do not remove this and give credit if you repost. Thanks!
+
+cTID = function(s) { return app.charIDToTypeID(s); };
 sTID = function(s) { return app.stringIDToTypeID(s); };
 
 function newGroupFromLayers(doc) {

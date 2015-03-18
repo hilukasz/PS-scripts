@@ -1,4 +1,7 @@
-﻿var parentName =  app.activeDocument.activeLayer.parent.name;
+﻿// written by Lukasz Wieczorek at http://lukasz.io
+// Please do not remove this and give credit if you repost. Thanks!
+
+var parentName =  app.activeDocument.activeLayer.parent.name;
 var parent =  app.activeDocument.activeLayer.parent;
 var numParents = getNumberOfParents();
 
