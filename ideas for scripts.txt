@@ -1,1 +1,2 @@
 - move selected layers above the bottom(another for top) selected layer
+- script to create a mask and center layer inside mask based on size input from user
