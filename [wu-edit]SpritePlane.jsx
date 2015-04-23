@@ -13,7 +13,7 @@ var docWidth = app.activeDocument.width;
 var docHeight = app.activeDocument.height;
 var rows;
 var columns;
-var i = 0; // Active layer counter
+var i = layerNum; // Active layer counter
 
 // layer.Translate is broken, that asshole. Here's the improvised one
 function translateActiveLayer( deltaX, deltaY )
@@ -39,12 +39,13 @@ function translateActiveLayer( deltaX, deltaY )
     {
         for (var colCount =1; colCount<=columns; colCount++)
         {
-            i++;
-            if (layerNum >= i)
+            
+            if (i >= 0)
             {
                 app.activeDocument.activeLayer = activeDocument.layers[layerNum-i];
                 translateActiveLayer(docWidth * (colCount-1), docHeight * (rowCount-1)) ;
             };
+			i--;
         };
     };
     alert("Completed!");
