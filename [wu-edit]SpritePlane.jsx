@@ -30,7 +30,7 @@ function translateActiveLayer( deltaX, deltaY )
 };
 
 
-    columns = app.activeDocument.layers.length;
+    columns = layerNum;
     rows = 1
 
     app.activeDocument.resizeCanvas(docWidth*columns, docHeight*rows, AnchorPosition.TOPLEFT);
@@ -48,7 +48,7 @@ function translateActiveLayer( deltaX, deltaY )
 			i--;
         };
     };
-    alert("Completed!");
+    //alert("Completed!");
 
 // Reset the application preferences
 app.preferences.rulerUnits = startRulerUnits;
