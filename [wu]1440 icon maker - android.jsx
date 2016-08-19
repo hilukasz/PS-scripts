@@ -1,0 +1,1 @@
+﻿var layerLength = app.activeDocument.layers.length;var docRef  = app.activeDocument;var myPrefix=prompt("enter prefix","");app.activeDocument.activeLayer.name = "drawable-xxxhdpi/"+myPrefix+", 93.75% drawable-xxhdpi/"+myPrefix+", 50% drawable-xhdpi/"+myPrefix+",  37.5% drawable-hdpi/"+myPrefix+", 25% drawable-mdpi/"+myPrefix+"" 
